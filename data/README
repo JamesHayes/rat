@@ -1,1 +1,10 @@
-Data directory for storing fixed data sets
+#README
+
+This folder contains the data for the project looking at the rat sighting data for NYC.
+There are 2 required files:
+-Rat_Sightings.csv
+-census2010.csv
+
+###Original Dataa Sources:
+[Rat_Sightings.csv](https://data.cityofnewyork.us/Social-Services/Rat-Sightings/3q43-55fe)
+[census2010.csv](http://www2.census.gov/geo/docs/maps-data/data/rel/zcta_tract_rel_10.txt)
