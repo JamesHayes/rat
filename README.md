@@ -1,31 +1,20 @@
-A cookie cutter (aka project template) to set up a folder structure for a computational project.
-This is a quick way to setup a folder structure that follows one standard to organize a project.
-This helps with project management, reproducibility, sharing, and publishing your data, analysis, and results.
+#Rat Sightings in NYC
+-Jim Hayes [Email](mailto:jim@jimandjaime.net)
+-Created: April 3, 2015
+-Updated: April 4, 2015
 
-This project was inspired (and modeled off) by:
+##Intro
+New York City provides the public with over 1000 datasets that are just waiting to be analyzed, each of which tells a story. In this case, I found a dataset that has tabulated all of the rat sightings that have been reported. I don't have any particular interest in rats, pest control, or other murine topics in general; I just thought it would be interesting to see any trends that may appear in the data.
 
+##Scripts
+There is one main R script, ratSightings.R, that is located in the main folder of this project. All of the resultant output graphics are automatically saved to the results/ folder.
+
+##Data
+There are 2 datasets for this project: the rat sightings data and the 2010 census data. The script will automatically download the census data, however, please download the rat sighting data on your own. The data used for the analysis if found in the data/ folder of this git archive. Below are the links to the actual files.
+-[Rat_Sightings.csv](https://data.cityofnewyork.us/Social-Services/Rat-Sightings/3q43-55fe)
+-[census2010.csv](http://www2.census.gov/geo/docs/maps-data/data/rel/zcta_tract_rel_10.txt)
+
+###Other Notes:
+Folder structure of this repo was modeled off of:
 [Noble WS 2009 A Quick Guide to Organizing Computational Biology Projects. PLoS Comput Biol 5 7: e1000424. doi:10.1371/journal.pcbi.1000424](http://dx.doi.org/10.1371/journal.pcbi.1000424)
-
-## What it does
-the `setup_project_dir.sh` script creates the following folder structure:
-
-    Path_Provided
-    |- doc/           # directory for documentation, one subdirectory for manuscript
-    |
-    |- data/          # data for storing fixed data sets
-    |
-    |- src/           # any source code
-    |
-    |- bin/           # any compiled binaries or scripts
-    |
-    |- results/       # output for tracking computational experiments performed on data
-
-A README containing a brief blurb is placed in each folder.
-This is because git will not track empty folders and placing a README will
-remind you of what goes in each folder, and also the overall
-folder structure will be retained
-
-If you use a webservice in conjunction with your version control (e.g. github, bitbucket, gitlabs, gitbucket, etc)
-the webservice will be able to render these README and other [markdown](https://help.github.com/articles/markdown-basics/) files automatically.
-
-This project was taken from [this](https://github.com/chendaniely/computational-project-cookie-cutter) github repo
+The script used to generate this repo was modified from [this](https://github.com/chendaniely/computational-project-cookie-cutter) github repo.
