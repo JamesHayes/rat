@@ -1,7 +1,7 @@
 #Rat Sightings in NYC
--Jim Hayes [Email](mailto:jim@jimandjaime.net)
--Created: April 3, 2015
--Updated: April 4, 2015
+- Jim Hayes [Email](mailto:jim@jimandjaime.net)
+- Created: April 3, 2015
+- Updated: April 4, 2015
 
 ##Intro
 New York City provides the public with over 1000 datasets that are just waiting to be analyzed, each of which tells a story. In this case, I found a dataset that has tabulated all of the rat sightings that have been reported. I don't have any particular interest in rats, pest control, or other murine topics in general; I just thought it would be interesting to see any trends that may appear in the data.
@@ -11,8 +11,8 @@ There is one main R script, ratSightings.R, that is located in the main folder o
 
 ##Data
 There are 2 datasets for this project: the rat sightings data and the 2010 census data. The script will automatically download the census data, however, please download the rat sighting data on your own. The data used for the analysis if found in the data/ folder of this git archive. Below are the links to the actual files.
--[Rat_Sightings.csv](https://data.cityofnewyork.us/Social-Services/Rat-Sightings/3q43-55fe)
--[census2010.csv](http://www2.census.gov/geo/docs/maps-data/data/rel/zcta_tract_rel_10.txt)
+- [Rat_Sightings.csv](https://data.cityofnewyork.us/Social-Services/Rat-Sightings/3q43-55fe)
+- [census2010.csv](http://www2.census.gov/geo/docs/maps-data/data/rel/zcta_tract_rel_10.txt)
 
 ###Other Notes:
 Folder structure of this repo was modeled off of:
